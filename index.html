@@ -14,12 +14,12 @@ body {
   color: #444;
   text-align:center;
 }
-.email {border-style: solid; border-width:5px; border-color:blue ;color: black;
+.post {border-style: solid; border-width:5px; border-color:blue ;color: black;
   border-radius: 5px;
   padding: 20px;
   font-size: 150%;}
   
-#from,#to,#subject,#content{
+#author,#to,#subject,#content{
  font-family: Helvetica;
  font-size: 11pt;
 }
@@ -34,49 +34,66 @@ body {
 <h1>Ariketa</h1>
 <div id="ariketa2">
 
-  <div class="email">  
-  <div>De: <span id="from">Dani Reguera dreguera@mondragon.edu</span></div>
-  <div>Para: <span id="to">Carlos Cernuda ccernuda@mondragon.edu</span></div>
-  <div>Asunto: <span id="subject">Notas Reto 6</span></div>
+  <div class="post">  
+  <div>De: <span id="author">Dani Reguera dreguera@mondragon.edu</span></div>
+  <div>Asunto: <span id="subject">Reto python</span></div>
   <div>Mensaje:
-  <div id="content">He estado corrigiendo los trabajos de Data Science y la parte de aprendizaje no supervisado la han realizado bastante bien, ¿Qué algoritmos de clustering has dado en clase?. Tanto basados en centroide como os basados en densidad? Supongo que ambos pero me confirmas, por favor.</div>
+  <div id="content">He estado corrigiendo los trabajos de Data Science y la parte de aprendizaje no supervisado la han realizado bastante bien, ¿Qué algoritmos de clustering has dado en clase?</div>
   </div>
   </div>
 
-    <div class="email">  
-  <div>De: <span id="from">Carlos Cernuda ccernuda@mondragon.edu</span></div>
-  <div>Para: <span id="to">Dani Reguera dreguera@mondragon.edu</span></div>
+    <div class="post">  
+  <div>De: <span id="author">Carlos Cernuda ccernuda@mondragon.edu</span></div>
+  <div>Asunto: <span id="subject">Reto python</span></div>
+  <div>Mensaje:
+  <div id="content">Hola Dani, en la parte de no supervisado me he centrado sobre todo en el clustering por densidad. Hemos visto Optics, DBSCAN y HDSCAN</div>
+  </div>
+  </div>
+    <div class="post">  
+  <div>De: <span id="author">Dani Reguera dreguera@mondragon.edu</span></div>
+  <div>Asunto: <span id="subject">Reto 6</span></div>
+  <div>Mensaje:
+  <div id="content">MeanShift para clustering por densidad habeis visto? Yo suelo utilizar para datos numéricos y me da muy buenos resultados para descartar outliers</div>
+  </div>
+  </div>
+    <div class="post">  
+  <div>De: <span id="author">Carlos Cernuda ccernuda@mondragon.edu</span></div>
+  <div>Asunto: <span id="subject">Reto python</span></div>
+  <div>Mensaje:
+  <div id="content">Si, la verdad es que da buenos resultados pero cuando si puedes hacer ajustes manuales de otros parámetros, OPTICS y DBSCAN son más óptimos</div>
+  </div>
+  </div>
+    <div class="post">  
+  <div>De: <span id="author">Sara Segura spsegura@mondragon.edu</span></div>
+  <div>Asunto: <span id="subject">Reto 6</span></div>
+  <div>Mensaje:
+  <div id="content">El tema del clutering por densidad me parece super interesante pero no se si tendría aplicabilidad en el Reto 7</div>
+  </div>
+  </div>
+    <div class="post">  
+  <div>De: <span id="author">Aitor Bediaga abediaga@mondragon.edu</span></div>
+  <div>Asunto: <span id="subject">Reto Python</span></div>
+  <div>Mensaje:
+  <div id="content">Creo que podríamos traer a una empresa para que les hablara de HDBSCAN</div>
+  </div>
+  </div>
+    <div class="post">  
+  <div>De: <span id="author">Sara Segura spsegura@mondragon.edu</span></div>
   <div>Asunto: <span id="subject">Notas Reto 6</span></div>
   <div>Mensaje:
-  <div id="content">Hola Dani, en la parte de no supervisado me he centrado sobre todo en el clustering por densidad. Hemos visto Optics, DBSCAN y HDSCAN. Los algoritmos basados en centroide los veremos en los retos posteriores puesto que tienen mas relación con los diferentes escenarios que van a trabajar dentro del aprendizaje no supervisado</div>
+  <div id="content">Guay! me parece super interesante y puede ser super enriquecedor</div>
   </div>
   </div>
-    <div class="email">  
-  <div>De: <span id="from">Dani Reguera dreguera@mondragon.edu</span></div>
-  <div>Para: <span id="to">Carlos Cernuda ccernuda@mondragon.edu</span></div>
+    <div class="post">  
+  <div>De: <span id="author">Carlos Cernuda ccernuda@mondragon.edu</span></div>
   <div>Asunto: <span id="subject">Notas Reto 6</span></div>
   <div>Mensaje:
-  <div id="content">MeanShift para clustering por densidad habeis visto? Yo suelo utilizar para datos numéricos y me da muy buenos resultados para descartar outliers. Aun así, si puedes pasame las diapositivas de HDBSCAN y OPTICS para echarles un vistazo en cuanto saque un rato.</div>
-  </div>
-  </div>
-    <div class="email">  
-  <div>De: <span id="from">Carlos Cernuda ccernuda@mondragon.edu</span></div>
-  <div>Para: <span id="to">Dani Reguera dreguera@mondragon.edu</span></div>
-  <div>Asunto: <span id="subject">Notas Reto 6</span></div>
-  <div>Mensaje:
-  <div id="content">Si, la verdad es que MeanShift da buenos resultados pero cuando si puedes hacer ajustes manuales de otros parámetros, OPTICS y DBSCAN son más óptimos. Tienes las diapositivas en Mudle, creo que tienes acceso. Sino me comentas y te envío por correo</div>
-  </div>
-  </div>
-      <div class="email">  
-  <div>De: <span id="from">Dani Reguera dreguera@mondragon.edu</span></div>
-  <div>Para: <span id="to">Carlos Cernuda ccernuda@mondragon.edu</span></div>
-  <div>Asunto: <span id="subject">Notas Reto 6</span></div>
-  <div>Mensaje:
-  <div id="content">Perfecto! Vamos hablando. Cuidate!</div>
+  <div id="content">Perfecto</div>
   </div>
   </div>
 
 </div>
 </body>
 </html>
+
 
