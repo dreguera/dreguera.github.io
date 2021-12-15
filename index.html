@@ -1,3 +1,4 @@
+
 <html>
 
 <style>
@@ -6,94 +7,44 @@ body {
   margin: 40px;
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: 200px 200px 200px;
-  grid-gap: 10px;
-  background-color: #fff;
-  color: #444;
-  text-align:center;
-}
-.post {border-style: solid; border-width:5px; border-color:blue ;color: black;
-  border-radius: 5px;
-  padding: 20px;
-  font-size: 150%;}
-  
-#author,#to,#subject,#content{
- font-family: Helvetica;
- font-size: 11pt;
+.amarillo {background-color: yellow;}
+.azul_oscuro{background-color: #0303E7;color:white;}
+.azul_claro{background-color:#33FFDA;}
+.verde_claro{background-color:#CFF5AF;}
+.verde_oscuro{background-color:#285403;color:white;}
+.morado{background-color:#9651F2;}
+.rojo{background-color:red;}
 }
 
 </style>
-
 <body>
 
 
-
-
-<h1>Ariketa</h1>
-<div id="ariketa2">
-
-  <div class="post">  
-  <div>De: <span id="author">Dani Reguera dreguera@mondragon.edu</span></div>
-  <div>Asunto: <span id="subject">Reto python</span></div>
-  <div>Mensaje:
-  <div id="content">He estado corrigiendo los trabajos de Data Science y la parte de aprendizaje no supervisado la han realizado bastante bien, ¿Qué algoritmos de clustering has dado en clase?</div>
-  </div>
-  </div>
-
-    <div class="post">  
-  <div>De: <span id="author">Carlos Cernuda ccernuda@mondragon.edu</span></div>
-  <div>Asunto: <span id="subject">Reto python</span></div>
-  <div>Mensaje:
-  <div id="content">Hola Dani, en la parte de no supervisado me he centrado sobre todo en el clustering por densidad. Hemos visto Optics, DBSCAN y HDSCAN</div>
-  </div>
-  </div>
-    <div class="post">  
-  <div>De: <span id="author">Dani Reguera dreguera@mondragon.edu</span></div>
-  <div>Asunto: <span id="subject">Reto 6</span></div>
-  <div>Mensaje:
-  <div id="content">MeanShift para clustering por densidad habeis visto? Yo suelo utilizar para datos numéricos y me da muy buenos resultados para descartar outliers</div>
-  </div>
-  </div>
-    <div class="post">  
-  <div>De: <span id="author">Carlos Cernuda ccernuda@mondragon.edu</span></div>
-  <div>Asunto: <span id="subject">Reto python</span></div>
-  <div>Mensaje:
-  <div id="content">Si, la verdad es que da buenos resultados pero cuando si puedes hacer ajustes manuales de otros parámetros, OPTICS y DBSCAN son más óptimos</div>
-  </div>
-  </div>
-    <div class="post">  
-  <div>De: <span id="author">Sara Segura spsegura@mondragon.edu</span></div>
-  <div>Asunto: <span id="subject">Reto 6</span></div>
-  <div>Mensaje:
-  <div id="content">El tema del clutering por densidad me parece super interesante pero no se si tendría aplicabilidad en el Reto 7</div>
-  </div>
-  </div>
-    <div class="post">  
-  <div>De: <span id="author">Aitor Bediaga abediaga@mondragon.edu</span></div>
-  <div>Asunto: <span id="subject">Reto Python</span></div>
-  <div>Mensaje:
-  <div id="content">Creo que podríamos traer a una empresa para que les hablara de HDBSCAN</div>
-  </div>
-  </div>
-    <div class="post">  
-  <div>De: <span id="author">Sara Segura spsegura@mondragon.edu</span></div>
-  <div>Asunto: <span id="subject">Notas Reto 6</span></div>
-  <div>Mensaje:
-  <div id="content">Guay! me parece super interesante y puede ser super enriquecedor</div>
-  </div>
-  </div>
-    <div class="post">  
-  <div>De: <span id="author">Carlos Cernuda ccernuda@mondragon.edu</span></div>
-  <div>Asunto: <span id="subject">Notas Reto 6</span></div>
-  <div>Mensaje:
-  <div id="content">Perfecto</div>
-  </div>
-  </div>
-
+<h2>Peliculas a escrapear</h2>
+<div id="pelicula">
+<div class="wrapper">
+  <div class="amarillo">American History X</div>
+  <div class="azul_oscuro">Little Nicky</div>
+  <div class="verde_claro">Homeland</div>
+  <div class="rojo">Moon</div>
+  <div class="azul_claro">Numbered</div>
+  <div class="verde_oscuro">The Bridge</div>
+  <div class="morado">Young Tiger</div>
 </div>
-</body>
+</div>
+
+<h2>Series a escrapear</h2>
+<div id="series">
+
+  <div class="amarillo">Sex Education</div>
+  <div class="azul_oscuro">Fauda</div>
+  <div class="verde_claro">Rosario Tijeras</div>
+  <div class="rojo">Wild Alaska</div>
+  <div class="azul_claro">Mad Men</div>
+  <div class="verde_oscuro">American Horror Story</div>
+  <div class="morado">Clickbait</div>
+</div>
+
 </html>
 
 
